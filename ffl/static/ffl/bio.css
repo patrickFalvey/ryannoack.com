@@ -1,0 +1,921 @@
+@media only screen and (min-width: 1799px) and (max-width: 2750px) {
+
+
+
+@font-face {
+    font-family: 'comic_zine_otregular';
+    src: url('comic_zine_ot-webfont.eot');
+    src: url('comic_zine_ot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('comic_zine_ot-webfont.woff') format('woff'),
+         url('comic_zine_ot-webfont.ttf') format('truetype'),
+         url('comic_zine_ot-webfont.svg#comic_zine_otregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html{
+	/*background-image: url(abstract_0014.jpg);
+	background-size: cover;*/
+	padding:0;
+	
+	}
+body{
+	background-image: url(abstract_0014.jpg);
+	background-size: cover;
+	postition: relative;
+	align: center;
+	margin: 0 auto;
+	height:auto;
+	min-height: 100%;
+	max-width: 1799px;
+	padding:2em;
+	
+}
+
+
+
+
+
+#header{
+	position: relative;
+	background-image: url(abstract_0041.jpg);
+	background-size: 100%;
+	border-radius: 20px;
+	border-bottom: thin solid #cbaf1f;
+	margin-top:-9.5em;
+	padding-top: 0;
+	padding-bottom: 0;
+	height: 10em;
+	
+	
+	
+}
+
+#headerp{
+	max-height: 8%;
+	max-width: 35%;
+	color: #ba0000;
+	text-shadow: 4px 4px black;
+	font: 7em Impact;
+	text-align: center;
+    padding-top: 0.2em;
+	
+}
+#headertd1{
+	position:absolute;
+	color: #cbaf1f;
+	right: 22%;
+	bottom: 6%;
+	min-width: 75px;
+	display: inline-block;
+	font-size: 25px;
+	font-family: Impact;
+	text-shadow: 1px 1px black;
+	height: 45px;
+	padding-top: 5px;
+}
+
+#headertd2{
+	
+	color: #cbaf1f;
+	right: 14%;
+	bottom: 6%;
+	min-width: 75px;
+	position: absolute;
+	display: inline-block;
+	font-size: 25px;
+	font-family: Impact;
+	height: 45px;
+	text-shadow: 1px 1px black;
+	padding-top: 5px;
+}
+#headertd3{
+	
+	color: #cbaf1f;
+	right: 6%;
+	bottom: 7%;
+	min-width: 75px;
+	position: absolute;
+	display: inline-block;
+	font-size: 25px;
+	font-family: Impact;
+	height: 45px;
+	text-shadow: 1px 1px black;
+	padding-top: 5px;
+}
+td {
+	/*background-image: url(abstract_0014.jpg);*/
+	color: #cbaf1f;
+	/*border-top: 2px solid #cbaf1f;
+	border-bottom: 2px solid #cbaf1f;*/
+	border-opacity: 0.5;
+	border-radius: 10px;
+	align: center;
+	display: inline-block;
+	text-align: center;
+	min-width: 130px;
+	height: 110px;
+	position: relative; 
+	margin-right: 20px;
+	padding: auto;
+	
+}
+
+td:hover{
+	color: #3a1700;
+	opacity: 0.8;
+	border-top: thin solid #dbdada;
+	border-bottom: thin solid #dbdada;
+	padding: 0;
+}
+
+#headera {
+	text-decoration: none;
+	text-align: center;
+	color: #cbaf1f;
+	display: inline-block;
+	height:25px;
+	width: 100px;
+	border-radius: 10px;
+	padding-top: 4px;
+	
+}
+#bio{
+	position: absolute;
+	width: 30em;
+	height: 567px;
+	border-radius: 20px;
+	
+	left: 15%;
+	margin:0 auto;
+	background-image: url(abstract_0041.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 3px 10px 3px 10px;
+	font-family: sans-serif;
+	font-size: 1.75em;
+	border: thin solid #cbaf1f;
+	color:#cbaf1f;
+	text-shadow: 1px 1px black;
+
+}
+
+#biop{
+	position: relative;
+}
+
+#slideshow{
+	position: absolute;
+	width: 45%;
+	height: 575px;
+	left: 44%;
+	right: 3%;
+	border:thin;
+	margin: 53px 40px 0px 0px; 
+	}
+.rslides{
+	width: 100%;
+	height: 575px;
+	position: relative;
+	overflow:hidden;
+	padding: 0;
+	margin-top: 5.5%;
+	border:thin;
+	/*box-shadow: 5px -5px -5px 10px black;*/
+	}
+
+.rslides li img {
+	height: 575px;
+	width: 100%;
+	left: 0px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border:thin;
+	margin: 0;
+	}
+
+#left{
+	z-index: 2;
+	position: fixed;
+	display: block;
+	margin-top: 7em;
+	margin-left: 1.6em;
+	float: left;
+	top: 12.5em;
+}
+
+#lefttd{
+	background: none;
+	border: none;
+	position: relative;
+	display: block;
+}
+
+#lefttd:hover{
+	border-top: thin solid #dbdada;
+	border-bottom: thin solid #dbdada;
+	opacity: 0.8;
+}
+
+
+
+
+
+
+table{
+	text-shadow: 1px 1px black;
+
+}
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1798px) {
+
+
+
+@font-face {
+    font-family: 'comic_zine_otregular';
+    src: url('comic_zine_ot-webfont.eot');
+    src: url('comic_zine_ot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('comic_zine_ot-webfont.woff') format('woff'),
+         url('comic_zine_ot-webfont.ttf') format('truetype'),
+         url('comic_zine_ot-webfont.svg#comic_zine_otregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html{
+	/*background-image: url(abstract_0014.jpg);
+	background-size: cover;*/
+	padding:0;
+	
+	}
+body{
+	background-image: url(abstract_0014.jpg);
+	background-size: cover;
+	postition: relative;
+	align: center;
+	margin: 0 auto;
+	height:auto;
+	min-height: 100%;
+	max-width: 1799px;
+	padding:2em;
+	
+}
+
+
+
+
+
+#header{
+	position: relative;
+	background-image: url(abstract_0041.jpg);
+	background-size: 100%;
+	border-radius: 20px;
+	border-bottom: thin solid #cbaf1f;
+	margin: 0 auto;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	
+	
+	
+}
+
+#headerp{
+	max-height: 8%;
+	max-width: 30%;
+	color: #ba0000;
+	text-shadow: 4px 4px black;
+	font: 490% Impact;
+	margin: 3% 0% -0.5% 0%;
+	text-align: center;
+	
+}
+#headertd1{
+	position:absolute;
+	color: #cbaf1f;
+	right: 22%;
+	bottom: 6%;
+	min-width: 75px;
+	display: inline-block;
+	font-size: 25px;
+	font-family: Impact;
+	text-shadow: 1px 1px black;
+
+}
+
+#headertd2{
+	
+	color: #cbaf1f;
+	right: 14%;
+	bottom: 6%;
+	min-width: 75px;
+	position: absolute;
+	display: inline-block;
+	font-size: 25px;
+	font-family: Impact;
+	
+	text-shadow: 1px 1px black;
+
+}
+#headertd3{
+	
+	color: #cbaf1f;
+	right: 6%;
+	bottom: 7%;
+	min-width: 75px;
+	position: absolute;
+	display: inline-block;
+	font-size: 25px;
+	font-family: Impact;
+	
+	text-shadow: 1px 1px black;
+
+}
+td {
+	/*background-image: url(abstract_0014.jpg);*/
+	color: #cbaf1f;
+	/*border-top: 2px solid #cbaf1f;
+	border-bottom: 2px solid #cbaf1f;*/
+	border-opacity: 0.5;
+	border-radius: 10px;
+	align: center;
+	display: inline-block;
+	text-align: center;
+	min-width: 100px;
+	position: relative; 
+	margin-right: 20px;
+	
+}
+
+td:hover{
+	color: #3a1700;
+	opacity: 0.8;
+	border-top: thin solid #dbdada;
+	border-bottom: thin solid #dbdada;
+	padding: 0;
+}
+
+#headera {
+	text-decoration: none;
+	text-align: center;
+	color: #cbaf1f;
+	display: inline-block;
+	height:25px;
+	width: 100px;
+	border-radius: 10px;
+	padding-top: 4px;
+	
+}
+#bio{
+	position: relative;
+	width: 28%;
+	height: 575px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	left: 15%;
+	margin-top: 3%;
+	background-image: url(abstract_0041.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 9px 10px 5px 10px;
+	font-family: sans-serif;
+	font-size: 145%;
+	border: thin solid #cbaf1f;
+	color:#cbaf1f;
+	text-shadow: 1px 1px black;
+
+}
+
+#biop{
+	position: relative;
+	margin: 0;
+}
+
+#slideshow{
+	position: absolute;
+	width: 45%;
+	height: 100%;
+	left: 45%;
+	right: 3%;
+	border:thin;
+	margin: 0%; 
+	}
+.rslides{
+	width: 100%;
+	height: 101%;
+	position: relative;
+	overflow:hidden;
+	padding: 0;
+	margin-top: 5.5%;
+	border:thin;
+	/*box-shadow: 5px -5px -5px 10px black;*/
+	}
+
+.rslides li img {
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border:thin;
+	margin: 0;
+	}
+
+#left{
+	z-index: 2;
+	position: fixed;
+	display: block;
+	margin-top: 8%;
+	margin-left: 2%;
+	float: left;
+	top: 15%;
+}
+
+#lefttd{
+	background: none;
+	border: none;
+	position: relative;
+	display: block;
+}
+
+#lefttd:hover{
+	border-top: thin solid #dbdada;
+	border-bottom: thin solid #dbdada;
+	opacity: 0.8;
+}
+
+
+
+
+
+
+table{
+	text-shadow: 1px 1px black;
+
+}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 999px) {
+
+
+
+@font-face {
+    font-family: 'comic_zine_otregular';
+    src: url('comic_zine_ot-webfont.eot');
+    src: url('comic_zine_ot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('comic_zine_ot-webfont.woff') format('woff'),
+         url('comic_zine_ot-webfont.ttf') format('truetype'),
+         url('comic_zine_ot-webfont.svg#comic_zine_otregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html{
+	
+	
+	}
+body{
+	
+	postition: relative;
+	align: center;
+	margin: auto;
+	background-image: url(abstract_0014.jpg);
+	background-size: 100%;
+
+	
+}
+
+
+
+
+
+#header{
+	position: relative;
+	background-image: url(abstract_0041.jpg);
+	background-size: 100%;
+	border-radius: 20px;
+	border-bottom: thin solid #cbaf1f;
+	margin: 0 auto;
+	padding-bottom: 1%;
+	padding-top: 3%;
+	height: 12%;
+	
+	
+	
+}
+
+#headerp{
+
+	color: #ba0000;
+	text-shadow: 4px 4px black;
+	font: 450% Impact;
+	margin: 3% 0% -1% 4.5%;
+	bottom: -10%;
+	
+}
+#headertd1{
+	margin: 1% 15% -.5% 1%;
+	position:absolute;
+	color: #cbaf1f;
+	right: 18%;
+	bottom: 6%;
+	min-width: 75px;
+	display: inline-block;
+	font-size: 25px;
+	font-family: Impact;
+	text-shadow: 1px 1px black;
+
+}
+
+#headertd2{
+	margin: 1% 9% -.5% 1%;
+	color: #cbaf1f;
+	right: 11%;
+	bottom: 6%;
+	min-width: 75px;
+	position: absolute;
+	display: inline-block;
+	font-size: 25px;
+	font-family: Impact;
+	
+	text-shadow: 1px 1px black;
+
+}
+#headertd3{
+	
+	color: #cbaf1f;
+	right: 4%;
+	bottom: 6%;
+	min-width: 75px;
+	position: absolute;
+	display: inline-block;
+	font-size: 25px;
+	font-family: Impact;
+	margin: 1% 1% -.5% 1%;
+	text-shadow: 1px 1px black;
+
+}
+td {
+	/*background-image: url(abstract_0014.jpg);*/
+	color: #cbaf1f;
+	/*border-top: 2px solid #cbaf1f;
+	border-bottom: 2px solid #cbaf1f;*/
+	border-opacity: 0.5;
+	border-radius: 10px;
+	align: center;
+	display: inline-block;
+	text-align: center;
+	min-width: 100px;
+	position: absolute;
+	margin: 0; 
+	
+	
+}
+
+td:hover{
+	color: #3a1700;
+	opacity: 0.8;
+	border-top: thin solid #dbdada;
+	border-bottom: thin solid #dbdada;
+	padding: 0;
+}
+
+#headera {
+	text-decoration: none;
+	text-align: center;
+	color: #cbaf1f;
+	display: inline-block;
+	height:25px;
+	width: 100px;
+	border-radius: 10px;
+	padding-top: 4px;
+	
+}
+
+#bio{
+	vertical-align: bottom;
+	position: relative;
+	width: 75%;
+	height: 33%;
+	border-radius: 20px;
+	left: 15%;
+	right: 10%;
+	
+	margin: 60% 4% 4% 4%;
+	background-image: url(abstract_0041.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 9px 10px 5px 10px;
+	font-family: sans-serif;
+	font-size: 145%;
+	border: thin solid #cbaf1f;
+	color:#cbaf1f;
+	text-shadow: 1px 1px black;
+	
+}
+
+#biop{
+	position: relative;
+	margin: 0;
+}
+
+#slideshow{
+	display: block;
+	vertical-align:bottom;
+	position: absolute;
+	width: 78%;
+	height: 100%;
+	left: 15%;
+	right: 7%;
+	margin:5% 0% 7% 4%;
+	 
+	}
+.rslides{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow:hidden;
+	margin:0;
+	padding: 0;
+	
+	/*box-shadow: 5px -5px -5px 10px black;*/
+	}
+
+.rslides li img {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	left: 0px;
+	border-radius: 20px;
+	
+	}
+
+#left{
+	z-index: 2;
+	position: fixed;
+	display: block;
+	margin-top: 14%;
+	margin-left: 2.5%;
+	float: left;
+	top: 15%;
+}
+
+#lefttd{
+	background: none;
+	border: none;
+	position: relative;
+	display: block;
+}
+
+#lefttd:hover{
+	border-top: thin solid #dbdada;
+	border-bottom: thin solid #dbdada;
+	opacity: 0.8;
+}
+
+
+
+
+
+
+table{
+	text-shadow: 1px 1px black;
+	margin: 0 auto;
+
+
+}
+}
+
+@media only screen and (min-width: 50px) and (max-width: 779px) {
+
+
+
+@font-face {
+    font-family: 'comic_zine_otregular';
+    src: url('comic_zine_ot-webfont.eot');
+    src: url('comic_zine_ot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('comic_zine_ot-webfont.woff') format('woff'),
+         url('comic_zine_ot-webfont.ttf') format('truetype'),
+         url('comic_zine_ot-webfont.svg#comic_zine_otregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html{
+	
+	
+	}
+body{
+	
+	postition: relative;
+	align: center;
+	margin: auto;
+	background-image: url(abstract_0014.jpg);
+	background-size: 100%;
+
+	
+}
+
+
+
+
+
+#header{
+	position: relative;
+	background-image: url(abstract_0041.jpg);
+	background-size: cover;
+	border-radius: 20px;
+	border-bottom: thin solid #cbaf1f;
+	margin: 0 auto;
+	padding-bottom: 1%;
+	padding-top: 3%;
+	height: 12%;
+	
+	
+	
+}
+
+#headerp{
+
+	color: #ba0000;
+	text-shadow: 4px 4px black;
+	font: 450% Impact;
+	margin: 1% 0% 5% 4.5%;
+	bottom: -10%;
+	
+}
+#headertd1{
+	margin: 1% 15% -.5% 1%;
+	position:absolute;
+	color: #cbaf1f;
+	right: 30%;
+	bottom: 6%;
+	max-width: 40px;
+	display: inline-block;
+	font-size: 20px;
+	font-family: Impact;
+	text-shadow: 1px 1px black;
+
+}
+
+#headertd2{
+	margin: 1% 9% -.5% 1%;
+	color: #cbaf1f;
+	right: 19%;
+	bottom: 6%;
+	max-width: 40px;
+	position: absolute;
+	display: inline-block;
+	font-size: 20px;
+	font-family: Impact;
+	
+	text-shadow: 1px 1px black;
+
+}
+#headertd3{
+	
+	color: #cbaf1f;
+	right: 7%;
+	bottom: 6%;
+	max-width: 40px;
+	position: absolute;
+	display: inline-block;
+	font-size: 20px;
+	font-family: Impact;
+	margin: 1% 1% -.5% 1%;
+	text-shadow: 1px 1px black;
+
+}
+td {
+	/*background-image: url(abstract_0014.jpg);*/
+	color: #cbaf1f;
+	/*border-top: 2px solid #cbaf1f;
+	border-bottom: 2px solid #cbaf1f;*/
+	border-opacity: 0.5;
+	border-radius: 10px;
+	align: center;
+	display: inline-block;
+	text-align: center;
+	min-width: 65px;
+	position: absolute;
+	margin: 6% 1% 6% 1%; 
+	
+	
+}
+
+td:hover{
+	color: #3a1700;
+	opacity: 0.8;
+	border-top: thin solid #dbdada;
+	border-bottom: thin solid #dbdada;
+	padding: 0;
+}
+
+#headera {
+	text-decoration: none;
+	text-align: center;
+	color: #cbaf1f;
+	display: inline-block;
+	height:25px;
+	width: 100px;
+	border-radius: 10px;
+	padding-top: 4px;
+	
+}
+
+#bio{
+	vertical-align: middle;
+	position: relative;
+	width: 95%;
+	height: 33%;
+	border-radius: 20px;
+	right: 1.5%;
+	left: 1%;
+	margin: 70% 1% 10% 1%;
+	background-image: url(abstract_0041.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 9px 10px 5px 10px;
+	font-family: sans-serif;
+	font-size: 145%;
+	border: thin solid #cbaf1f;
+	color:#cbaf1f;
+	text-shadow: 1px 1px black;
+	
+}
+
+#biop{
+	position: relative;
+	margin: 0;
+}
+
+#slideshow{
+	display: block;
+	vertical-align:bottom;
+	position: absolute;
+	width: 95%;
+	height: 100%;
+	left: 1%;
+	right: 1%;
+	margin:3% 1.5% 7% 1.5%;
+	 
+	}
+.rslides{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow:hidden;
+	margin:0;
+	padding: 0;
+	
+	/*box-shadow: 5px -5px -5px 10px black;*/
+	}
+
+.rslides li img {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	left: 0px;
+	border-radius: 20px;
+	
+	}
+
+#left{
+	z-index: 2;
+	display: inline-block;
+	margin-top: 14%;
+	bottom: 5%;
+	
+}
+
+#lefttd{
+	background: none;
+	border: none;
+	position: relative;
+	display: block;
+}
+
+#lefttd:hover{
+	border-top: thin solid #dbdada;
+	border-bottom: thin solid #dbdada;
+	opacity: 0.8;
+}
+
+
+
+
+
+
+table{
+	text-shadow: 1px 1px black;
+	margin: 0 auto;
+
+
+}
+.icon{
+	height: 20px;
+	width: 20px;
+	vertical-alignment: bottom;
+	}
+}

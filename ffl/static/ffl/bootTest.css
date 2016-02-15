@@ -1,0 +1,126 @@
+	
+body{
+	background-image: url(abstract_0014.jpg);
+	background-size: 100%;
+	min-height: 100%;
+}
+
+
+
+.headerp{
+	color: black;
+	/*text-shadow: 1px 1px white;*/
+	font-family: Impact;		font-size: 3.3em;	
+	text-align: center;
+}
+
+#headertd1{
+	color: #cbaf1f;
+	bottom: 6%;
+	height: 85px;
+}
+
+td {
+	color: #cbaf1f;
+	border-opacity: 0.5;
+	border-radius: 10px;
+	align: center;
+	text-align: center;
+	height: 110px;
+	position: relative; 
+	margin-right: 20px;
+	padding: auto;	
+}
+
+
+#headera {
+	color: #cbaf1f;
+	display: inline-block;
+	height:25px;
+	width: 100px;
+	border-radius: 10px;
+	padding-top: 4px;	
+}
+
+.bg-bio{
+	border-radius: 10px;
+	/*background-image: url(abstract_0041.jpg);*/
+	background-size: cover;	
+	background-repeat: no-repeat;
+	font-family: sans-serif;		font-size: 100%;		height: 70%;		opacity: .7;
+	border: thin solid #dbdada;		color: white;
+	text-shadow: 1px 1px black;	
+	padding: 20px 13px 20px 13px;		margin-bottom: 1em;
+}
+.slideshow{	
+	height: 100%;
+	border:thin;	
+	}
+	
+.rslides{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow:hidden;
+	padding: 0;
+	border:thin;
+	}
+
+.rslides li img {
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	border:thin;
+	}	ul{	list-style-type: none;}.TourH2{	font-style: none;}h2{		font-family: Impact;}.Tour{		height: 70%;	/*background-image: url(abstract_0041.jpg);*/	opacity: .7;	background-size: cover;	border-radius: 10px;	font-family: sans-serif;	font-size: 100%;	border: thin solid #dbdada;	color: white;	text-shadow: 1px 1px black;	border-opacity: .8;	margin-bottom: 1em;	text-align: center;}
+	/*iframe {
+	margin-bottom: 3em;
+	}*/
+	
+.left{
+	height: 10em;
+	display: inline-block;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.fb-icon{
+	background: none;
+	border: none;
+	margin: 0em 0em 3em 0em;
+	text-align: center;
+}
+
+.twitter-icon{
+	background: none;
+	border: none;
+	margin: 0em 0em 3em 0em;
+	text-align: center;
+}
+
+.youtube-icon{
+	background: none;
+	border: none;
+	margin: 0em 0em 3em 0em;
+	padding: auto;
+	text-align: center;
+}
+
+.linkedin-icon{
+	background: none;
+	border: none;
+	margin: 0em 0em 3em 0em;
+	padding: auto;
+	text-align: center;
+	
+}
+
+#sm:hover{
+	color: #3a1700;
+	border-top: thin solid #dbdada;
+	border-bottom: thin solid #dbdada;
+	border-radius: 40px;
+	padding: 0;
+	opacity: .8;
+}
+
+
