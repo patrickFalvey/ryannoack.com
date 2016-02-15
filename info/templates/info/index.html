@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+ 		<meta charset="utf-8">
+
+ 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="keywords" content="ryan ryin ryen rian noack novack noak comic comedy comedian stand up stand-up liquid laughs liquid-laughs humor media video videos audio clips reviews dvd cd tour show shows" />
+
+ 		<title>Ryan Noack| The Official Site</title>
+
+ 		<link rel="stylesheet" type="text/css" href="/static/info/bootTest.css" />
+
+        <!--<link rel="stylesheet" type="text/css" href="stylesheet.css" />-->
+
+        <link rel="stylesheet" href="/static/info/css/bootstrap.min.css">
+
+        <link rel="/static/info/css/bootstrap-theme.min.css">		  
+
+	</head>
+
+	<body>
+
+   	<div class="container">
+
+        	<div class="row col-xs-10 col-xs-push-1  headerp"">
+
+			  
+
+					<p>R y a n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; N o a c k</p>	
+
+        		
+			</div>
+
+           	<div class="row">
+			<div class="col-xs-12 col-sm-6 col-sm-push-3 slideshow">
+
+   			  <ul class="rslides">
+
+      				<li><img class="img-responsive img-rounded" src="/static/info/RyanSlide1.jpg" alt=""></li>
+
+					<li><a href="http://www.greatamericancomedyfestival.com/" target="_blank"><img class="img-rounded img-responsive" src="/static/info/great_american23.jpg"></a></li>	
+
+					<li><img class="img-responsive img-rounded" src="/static/info/RyanSlide2.jpg" alt=""></li>
+
+					<li><a href="http://www.greatamericancomedyfestival.com/" target="_blank"><img class="img-rounded img-responsive" src="/static/info/great_american23.jpg"></a></li>		
+
+      				<li><img class="img=responsive img-rounded" src="/static/info/RyanSlide3-1.jpg" alt=""></li>
+
+					<li><a href="http://www.greatamericancomedyfestival.com/" target="_blank"><img class="img-rounded img-responsive" src="/static/info/great_american23.jpg"></a></li>	
+
+					<li><img class="img-responsive img-rounded" src="/static/info/Tour.jpg" alt=""></li>
+
+					<li><a href="http://www.greatamericancomedyfestival.com/" target="_blank"><img class="img-rounded img-responsive" src="/static/info/great_american23.jpg"></a></li>
+
+					<li><a href="http://www.greatamericancomedyfestival.com/" target="_blank"><img class="img-responsive img-rounded" src="/static/info/Great_Bio.jpg" alt=""></a></li>
+
+					<li><a href="http://www.greatamericancomedyfestival.com/" target="_blank"><img class="img-rounded img-responsive" src="/static/info/great_american23.jpg"></a></li>
+
+    			</ul>
+				</div>
+			
+				<div class="col-xs-12 col-sm-3 col-sm-pull-6 bg-bio">
+					{% block content %}
+					{% for p in BioWords %}
+					<p><strong>{{p.text}}</strong></p>
+					{% endfor %}
+		
+					<br><br><br>
+					<a class="btn btn-primary col-xs-6 col-xs-push-3" href="https://www.youtube.com/embed/Z49zpEWgUA4" target="_blank" role="button">Free Sample</a><br>
+				</div>
+				
+				<div class="col-xs-12 col-sm-3 Tour">
+					
+					<ul>
+					<h2 class="TourH2">
+						<li style="color: black;"> Tour Dates</li>
+					</h2>	
+						
+						{% for date in Gigs %}
+						<li><p><strong>{{date.gig_date}}<br>{{date.venue}} | {{date.city}}, {{date.state}}</strong></p></li><br>
+						{% endfor %}
+					</ul>
+					{% endblock %}
+				</div>
+    		
+
+				</div>
+
+				
+		
+   			  
+
+        
+
+   	  		
+
+		<div class="row">	
+
+				<div class="col-xs-6 col-sm-3 col-md-1 col-md-push-4 fb-icon" id="sm"><a href = "https://www.facebook.com/ryan.noack.58" target="_blank"><img src="/static/info/facebok-icon.png" height=75px width=75px></a></div>
+
+				<div class="col-xs-6 col-sm-3 col-md-1 col-md-push-4 twitter-icon" id="sm"><a href = "https://twitter.com/theryannoack" target="_blank"><img src="/static/info/twitter-icon.png" height=75px width=75px></a></div>
+
+				<div class="col-xs-6 col-sm-3 col-md-1 col-md-push-4 youtube-icon" id="sm"><a href = "https://www.youtube.com/channel/UCV6AdQlTIY9MzNW6tscK12g" target="_blank"><img  src="/static/info/youtube-icon.png" height=75px width=75px></a></div>
+
+				<div class="col-xs-6 col-sm-3 col-md-1 col-md-push-4 linkedin-icon" id="sm"><a href = "https://www.linkedin.com/pub/ryan-noack/42/6b5/884" target="_blank"><img  src="/static/info/linkedin-icon.png" height=75px width=75px></a></div>  			
+
+			</div>
+
+		</div>
+
+  
+
+    <script type='text/javascript' src="/static/info/js/jquery-1.11.2.min.js"></script>
+
+    <script src="/static/info/responsiveslides.min.js"></script>	
+
+	<script type='text/javascript' src="/static/info/script.js"></script>	
+
+    <script src="/static/info/js/bootstrap.min.js"></script>
+
+        	
+
+	</body>
+
+</html>
