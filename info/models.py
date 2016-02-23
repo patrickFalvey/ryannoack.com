@@ -11,5 +11,13 @@ class Gig(models.Model):
 
 class Bio(models.Model):
     text = models.TextField()
+    
+class Video(models.Model):
+    name = models.CharField(max_length=255, blank=True, null=True)
+    url = models.CharField(max_length=250)
+    active = models.BooleanField(default=False)
+    
+    def __unicode__(self):
+        return u'%s' % (self.name)
 
-
+    
